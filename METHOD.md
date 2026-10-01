@@ -62,10 +62,11 @@ devops_roadmap/
 |---|---|
 | Серверы для Linux, Ansible, Nginx | Виртуальные машины на ПК с Windows (32 ГБ) или на ноутбуке с Fedora через KVM/libvirt; удобно управлять через Vagrant |
 | Docker | Podman/Docker на Fedora |
-| CI/CD | GitHub Actions (бесплатно для публичных репозиториев), деплой web-версии `dungeon_deck` на GitHub Pages |
+| CI/CD | GitHub Actions (бесплатно для публичных репозиториев), деплой web-версии `dungeon_deck` на GitHub Pages; GitLab CE в VM на ПК для GitLab CI |
 | Terraform | Сначала локальные провайдеры (Docker, libvirt), чтобы освоить синтаксис и state |
 | Kubernetes | kind, minikube или k3s в локальной VM |
+| PostgreSQL | В VM или контейнере |
 | Мониторинг | Prometheus + Grafana в Docker Compose |
-| Облако (этап 10) | Откладываем до конца; там используем стартовый грант для новых аккаунтов (условия проверим, когда дойдём) |
+| Облако (этап 15, по желанию) | Откладываем до конца; там используем стартовый грант для новых аккаунтов (условия проверим, когда дойдём) |
 
 Этапы и прогресс: см. [README.md](README.md).
